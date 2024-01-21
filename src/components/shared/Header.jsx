@@ -11,7 +11,7 @@ const Header = () => {
           <NavLink to='/'>
             <h1 className='flex items-center gap-3'>
               <img src={ logoIcon} className='h-12 w-11' alt="" />
-              aiogle
+              WebSeta
             </h1>
           </NavLink>
         </div>
