@@ -31,7 +31,7 @@ const CaseStudies = () => {
 
   const handleSearchChange = event => {
     setSearchQuery(event.target.value)
-    setItemOffset(0) // Reset offset when the search query changes
+    setItemOffset(0) 
   }
 
   return (
@@ -52,7 +52,7 @@ const CaseStudies = () => {
           onChange={handleSearchChange}
         />
       </div>
-      <main className='grid grid-cols-5 gap-8'>
+      <main className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8'>
         {currentItems.length > 0 ? (
           currentItems.map(d => (
             <div

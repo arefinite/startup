@@ -61,7 +61,7 @@ const Ideas = () => {
         <h1>Idea Hub</h1>
         <span className='text-sm'>({totalIdeas} shared ideas)</span>
       </div>
-      <div className='my-8 flex gap-4'>
+      <div className='my-8 flex flex-col md:flex-row gap-4'>
         <input
           type='search'
           placeholder='Search for ideas...'
@@ -81,7 +81,7 @@ const Ideas = () => {
           ))}
         </select>
       </div>
-      <main className='grid grid-cols-5 gap-8'>
+      <main className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4  xl:grid-cols-5 gap-8'>
         {currentItems.length > 0 ? (
           currentItems.map(idea => (
             <div

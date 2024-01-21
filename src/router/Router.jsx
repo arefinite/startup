@@ -12,6 +12,8 @@ import {
   LeadingStartups,
   NotFound,
   PitchDecks,
+  Privacy,
+  Terms,
   VCInfo,
 } from '../pages'
 export const appRouter = createBrowserRouter([
@@ -69,6 +71,14 @@ export const appRouter = createBrowserRouter([
             element: <VCInfo />,
           },
         ],
+      },
+      {
+        path: 'terms',
+        element: <Terms />,
+      },
+      {
+        path: 'privacy',
+        element: <Privacy/>
       }
       
       

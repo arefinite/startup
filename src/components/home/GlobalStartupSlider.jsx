@@ -26,7 +26,7 @@ const GlobalStartupSlider = () => {
           modules={[Pagination, Navigation]}
           className='mySwiper'
           breakpoints={{
-            400: {
+            375: {
               slidesPerView: 1,
               spaceBetween: 7,
             },

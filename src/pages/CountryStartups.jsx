@@ -77,7 +77,7 @@ const currentItems = filteredStartups
         <h1>{name} Startups:</h1>
         <span className='text-sm'>({totalIdeas} Startups)</span>
       </div>
-      <div className='my-8 flex gap-4'>
+      <div className='my-8 flex flex flex-col md:flex-row gap-4'>
         <input
           type='search'
           placeholder='Search for startups...'
@@ -98,7 +98,7 @@ const currentItems = filteredStartups
           ))}
         </select>
       </div>
-      <main className='grid grid-cols-2 gap-8'>
+      <main className='grid grid-cols-1 md:grid-cols-2 gap-8'>
         {currentItems.length > 0 ? (
           currentItems.map((startup) => (
             <div
@@ -143,7 +143,7 @@ const currentItems = filteredStartups
         ) : (
           <div>
             <p className='text-red-600 font-bold drop-shadow'>
-              No Ideas Available.
+              No Available.
             </p>
           </div>
         )}

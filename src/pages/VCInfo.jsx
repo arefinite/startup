@@ -32,13 +32,13 @@ const VCInfo = () => {
         </span>
         <h1>Bangladesh Startups</h1>
       </div>
-      <section className='flex gap-4 mt-8'>
+      <section className='flex gap-4 flex-col md:flex-row mt-8'>
         <SideNavBDStartups />
         <main className='flex-1 shadow p-4 '>
           <h2>VC/Investor Information</h2>
           <div className='flex flex-col gap-6 mt-8'>
             {currentItems.map((vc, i) => (
-              <div key={i} className='p-4 shadow space-y-3'>
+              <div key={i} className='p-4 md:shadow space-y-3'>
                 <p>
                   <strong>Name: </strong>
                   {vc.name}
@@ -72,7 +72,7 @@ const VCInfo = () => {
               onPageChange={handlePageClick}
               pageRangeDisplayed={5}
               pageCount={pageCount}
-              previousLabel='< Prev'
+              previousLabel='< Previous'
               renderOnZeroPageCount={null}
               containerClassName='pagination'
               pageClassName='page-num'

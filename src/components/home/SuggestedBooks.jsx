@@ -5,9 +5,9 @@ import { EffectCards } from 'swiper/modules'
 import styles from './SuggestedBooks.module.css'
 const SuggestedBooks = () => {
   return (
-    <section className='flex items-center flex-row-reverse mt-20'>
+    <section className='flex items-center flex-col-reverse md:flex-row-reverse mt-20'>
       <div className='space-y-6 flex-1'>
-        <p className='text-3xl font-bold flex flex-col space-y-2'>
+        <p className='text-xl md:text-3xl font-bold flex flex-col mt-8 mt:mt-0 space-y-2'>
           <span>Dive into the World of Innovation</span>
           <span></span>
           <span>with Our Recommended Startup Books!</span>

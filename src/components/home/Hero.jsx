@@ -1,9 +1,9 @@
 import heroImg from '/hero.svg'
 const Hero = () => {
   return (
-    <section className='flex items-center'>
+    <section className='flex flex-col-reverse md:flex-row  items-center'>
       <div className='space-y-6 flex-1'>
-        <p className='text-3xl font-bold flex flex-col space-y-2'>
+        <p className='text-xl md:text-3xl font-bold flex flex-col space-y-2 mt-8 md:mt-0'>
           <span>The All-In-One Ultimate</span>
           <span>Startup data bank for global and local entrepreneur</span>
         </p>

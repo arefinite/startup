@@ -31,7 +31,7 @@ const GlobalStartups = () => {
         </div>
         <div className='mt-8'>
           <p className='font-bold text-dark'>Explore by Countries</p>
-          <ul className='grid mt-6 grid-cols-5 space-y-4'>
+          <ul className='grid mt-6  grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  gap-4'>
             {countries.length > 0 &&
               countries.map((country, i) => (
                 <li key={i} className='flex gap-3 items-center'>

@@ -64,7 +64,7 @@ const PitchDecks = () => {
         <h1>Pitch Decks</h1>
         <span className='text-sm'>({pitches.length} shared ideas)</span>
       </div>
-      <div className='my-8 flex gap-4'>
+      <div className='my-8 flex flex-col md:flex-row  gap-4'>
         <input
           type='search'
           placeholder='Search for company pitch...'
@@ -84,7 +84,7 @@ const PitchDecks = () => {
           ))}
         </select>
       </div>
-      <main className='grid grid-cols-2 gap-8'>
+      <main className='grid grid-cols-1 md:grid-cols-2 gap-8'>
         {currentItems.length > 0 ? (
           currentItems.map((pitch, i) => (
             <div

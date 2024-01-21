@@ -34,26 +34,26 @@ const Big = () => {
         </span>
         <h1>Bangladesh Startups</h1>
       </div>
-      <section className='flex gap-4 mt-8'>
+      <section className='flex gap-4 flex-col md:flex-row mt-8'>
         <SideNavBDStartups />
         <main className='flex-1 shadow p-4 '>
           <div className='space-y-4'>
             <h2>Bangabandhu innovation grant (BIG 2021)</h2>
             <p className='font-bold'>Final Participants: ({ totalParticipants})</p>
           </div>
-          <ul className='grid grid-cols-4 mt-4 gap-3'>
+          <ul className='grid grid-cols-1 md:grid-cols-4 mt-4 gap-3'>
             {names.map((name, i) => (
               <li key={i}>{name}</li>
             ))}
           </ul>
           <div className='flex flex-col gap-6 mt-8'>
             <h2>Startup Video Presentation</h2>
-            <div className='grid grid-cols-2 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
               {currentItems.map((item, i) => (
                 <div key={i} className='flex flex-col gap-4 text-dark'>
                   <h1 className='font-bold'>{item.name}</h1>
                   <iframe
-                    width='560'
+                    className='w-full md:max-w-[500px]'
                     height='315'
                     src={item.link}
                     title='YouTube video player'

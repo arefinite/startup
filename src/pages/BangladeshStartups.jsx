@@ -13,7 +13,7 @@ const BangladeshStartups = () => {
         </span>
         <h1>Bangladesh Startups</h1>
       </div>
-      <section className='flex gap-4 mt-8'>
+      <section className='flex flex-col md:flex-row gap-4 mt-8'>
         <SideNavBDStartups />
         <main className='flex-1 shadow p-4 space-y-2'>
           <h2> Overview of Bangladesh Startup Ecosystem:</h2>
