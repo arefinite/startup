@@ -1,0 +1,82 @@
+[
+  {
+    "country": "Bangladesh",
+    "name": "ShopUp",
+    "description": "Small businesses can use ShopUp to have quick access to B2B sourcing, last-mile logistics, digital finance, and business management tools.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568ffdf3cb94a6281ee44_shopup_com_bd__5e14058ebfe7.jpeg",
+    "founded": 2017,
+    "tags": "E-Commerce, Internet, Shopping",
+    "website": "https://shopup.com.bd/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "ChalDal",
+    "description": "Chaldal is a groceries and delivery internet platform established in Dhaka, Bangladesh.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568ff3396112a181091ef_www_chaldal_com_ae8c5c910dbb.jpeg",
+    "founded": 2013,
+    "tags": "Delivery, E-Commerce, Grocery",
+    "website": "https://www.chaldal.com/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "Maya",
+    "description": "Maya is a messaging network that uses AI and NLP to connect people to professional advice on physical and mental health.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568fff589af7733ebf361_www_mayaiswithyou_com_113fbd0c8c59.jpeg",
+    "founded": 2011,
+    "tags": "Health Care, Natural Language Processing, Personal Health, Wellness",
+    "website": "https://mayaiswithyou.com/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "Sindabad.com",
+    "description": "Sindabad.com is Bangladesh's first and largest B2B e-commerce enterprise.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568ff4f52a8be85410833_m0essfs.jpeg",
+    "founded": 2016,
+    "tags": "B2B, B2C, E-Commerce, Retail",
+    "website": "https://sindabad.com/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "Shuttle",
+    "description": "Shuttle is a firm that serves citizens in Bangladesh with safe and economical transportation.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568ff70951111ec6d5b5a_www_shuttlebd_com_3fe01e6608b4.jpeg",
+    "founded": 2018,
+    "tags": "Information Technology, Logistics, Supply Chain Management, Transportation",
+    "website": "https://www.shuttlebd.com/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "Praava Health",
+    "description": "Praava Health is a vertically integrated network of outpatient health centers with world-class doctors, diagnostics, and technology at its core.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568ff76a5793bd0721e89_www_praavahealth_com_33e3d0dbd3f3.jpeg",
+    "founded": 2016,
+    "tags": "Health Care, Wellness",
+    "website": "https://praavahealth.com/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "PriyoShop",
+    "description": "In Bangladesh, an eCommerce platform that links small businesses with brands and also handles last-mile fulfillment.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568fff7b7522c1b9fc119_priyoshop_com_5bd5c9764a3d.jpeg",
+    "founded": 2018,
+    "tags": "B2B, E-Commerce, E-Commerce Platforms, Retail, Retail Technology, Shopping",
+    "website": "https://priyoshop.com/"
+  },
+  {
+    "country": "Bangladesh",
+    "name": "SureCash",
+    "description": "In Bangladesh, SureCash provides a comprehensive mobile payment system.",
+    "based": "Dhaka",
+    "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568ff9ac48c5620d14ed0_www_surecash_net__915b7734a8ae.jpeg",
+    "founded": 2010,
+    "tags": "Financial Services, FinTech",
+    "website": "https://www.surecash.net/"
+  }
+]

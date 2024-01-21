@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-2xl font-bold drop-shadow;
+  }
+  h2 {
+    @apply text-xl font-bold drop-shadow;
+  }
+}
+
+@layer components {
+  .wrapper {
+    @apply container mx-auto px-4 xl:px-0;
+  }
+  .color-primary {
+    @apply bg-indigo-600;
+  }
+  .add-phone {
+    @apply border w-full max-w-96 outline-none rounded py-1 px-2;
+  }
+  .darker-button {
+    @apply bg-darker text-white font-bold drop-shadow outline-none rounded px-4 py-2 hover:bg-dark transition-all delay-75 ease-in-out;
+  }
+  .darker-button-small {
+    @apply bg-darker text-white font-bold drop-shadow outline-none rounded px-3 py-1 hover:bg-dark transition-all delay-75 ease-in-out;
+  }
+  .medium-button {
+    @apply bg-medium text-white font-bold drop-shadow outline-none rounded px-4 py-2 hover:bg-light transition-all delay-75 ease-in-out;
+  }
+}
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+
+.shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+input[type="search"], input[type="text"],select {
+  border: 1px solid #027eb0;
+  padding-inline: 10px;
+  padding-block: 5px;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.pagination{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:5rem;
+  font-size: 1.2rem;
+  gap:5px;
+}
+
+.pagination .page-num{
+  padding:8px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover{
+  color:#027eb0;
+}
+
+.pagination .active{
+  background-color: #133c55;
+  color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+   
+}
+

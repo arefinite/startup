@@ -1,0 +1,192 @@
+[
+    {
+      "country": "India",
+      "name": "Apna",
+      "description": "Apna is a professional networking and job-search platform that connects blue- and gray-collar professionals with like-minded people and places to work.",
+      "based": "Mumbai",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6112756e640de04b8bc5cc95_apna_co_0abe14c95001.jpeg",
+      "founded": 2019,
+      "tags": " Employment, Human Resources, Recruiting, Staffing Agency",
+      "website": "https://apna.co/"
+    },
+    {
+      "country": "India",
+      "name": "CRED",
+      "description": "CRED is a members-only credit card management and bill-paying website that pays customers for paying their bills on time.",
+      "based": "Bengaluru",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6112733f97f64ac7a48e6394_www_cred_club_c35c5dca2f8c.jpeg",
+      "founded": 2018,
+      "tags": "Credit Cards, Financial Services, FinTech, Payments, Personal Finance",
+      "website": "https://www.cred.club/"
+    },
+    {
+      "country": "New Zealand",
+      "name": "Mooven",
+      "description": "Mooven makes products for the transportation industry that help to increase efficiency by using proactive, real-time decision tools.",
+      "based": "Auckland",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568f176a579592d721e7e_www_mooven_io_657f60535cda.jpeg",
+      "founded": 2017,
+      "tags": "Information Technology, Intelligent Systems, Software",
+      "website": "https://www.mooven.io/"
+    },
+    {
+      "country": "Japan",
+      "name": "Stake Technologies",
+      "description": "Stake Technologies is a blockchain technology startup that offers solutions to businesses.",
+      "based": "Tokyo",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6114485ca27c71ab1725c97b_stake_co_jp__f22972d746ad.jpeg",
+      "founded": 2019,
+      "tags": "Blockchain, Information Technology, Internet",
+      "website": "https://stake.co.jp/"
+    },
+    {
+      "country": "Japan",
+      "name": "Playco",
+      "description": "Playco is a game studio that creates instant-play games for a range of platforms.",
+      "based": "Tokyo",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6114485c4d1e8cc1f8470f5a_www_play_company_386b5f1eaefd.jpeg",
+      "founded": 2020,
+      "tags": "Gamification, Gaming, Online Games, Video Streaming",
+      "website": "https://www.play.company/"
+    },
+    {
+      "country": "Argentina",
+      "name": "Pomelo",
+      "description": "Pomelo is developing a Latin American fintech-as-a-service platform.",
+      "based": "Buenos Aires",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568d57bd033176a6c651b_pomelo_la__dc41a0d7248f.jpeg",
+      "founded": 2021,
+      "tags": "Financial Services, FinTech, Information Technology",
+      "website": "https://pomelo.la/"
+    },
+    {
+      "country": "Argentina",
+      "name": "Osana Salud",
+      "description": "Infrastructure for the healthcare industry in LATAM that is API-connected",
+      "based": "Buenos Aires",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611568d5da53aa407a82bc71_www_osanasalud_com_96d566a52743.jpeg",
+      "founded": 2019,
+      "tags": "Developer APIs, Health Care, IT Infrastructure",
+      "website": "https://www.osanasalud.com/"
+    },
+    {
+      "country": "United Arab Emirates(UAE)",
+      "name": "Ziina",
+      "description": "In the Middle East, Ziina is introducing the next generation of financial services. Ziina is the first peer-to-peer payment software in the UAE.",
+      "based": "Dubai",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/61144b63a4ae4e834af74bd9_www_ziina_com__5e46551addfb.jpeg",
+      "founded": 2020,
+      "tags": "Financial Services, FinTech",
+      "website": "https://www.ziina.com/"
+    },
+    {
+      "country": "United Arab Emirates(UAE)",
+      "name": "Opontia",
+      "description": "Small e-commerce business owners can use Opontia to sell their businesses in a quick and fair manner.",
+      "based": "Dubai",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/61144b63e8a72813e40e29fb_www_opontia_com__6ecc88a9cae5.jpeg",
+      "founded": 2021,
+      "tags": "Brand Marketing, E-Commerce, Retail",
+      "website": "https://www.opontia.com/"
+    },
+    {
+      "country": "United Arab Emirates(UAE)",
+      "name": "Foloosi",
+      "description": "Foloosi simplifies consumer-to-business card payments by allowing businesses to display QR codes that customers may scan and pay with.",
+      "based": "Dubai",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/61144b655af67766cfbf5dda_www_foloosi_com_f4b871a183c7.jpeg",
+      "founded": 2018,
+      "tags": "FinTech",
+      "website": "https://www.foloosi.com/"
+    },
+    {
+      "country": "United State of Amrerica(USA)",
+      "name": "Airmeet",
+      "description": "Airmeet is an all-in-one event platform that features virtual social lounges for networking and virtual summits, meetups, and courses.",
+      "based": "Delaware",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611273457686d233a24056b2_ZePRxvw.jpeg",
+      "founded": 2019,
+      "tags": "Events, Social, Software, Video Conferencing",
+      "website": "https://www.airmeet.com/"
+    },
+    {
+      "country": "United State of Amrerica(USA)",
+      "name": "Esper",
+      "description": "Esper is a DevOps platform for intelligent edge devices based on Android.",
+      "based": "Washington",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/61156844cdb83be0e84f3db1_www_esper_io_de08a0830f9b.jpeg",
+      "founded": 2018,
+      "tags": "Application Performance Management, Enterprise Applications, Security, Software",
+      "website": "https://www.esper.io/"
+    },
+    {
+      "country": "United State of Amrerica(USA)",
+      "name": "Cabana",
+      "description": "Cabana is a new travel company that converts vans into bookable mobile hotels.",
+      "based": "Washington",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/61144b33fa926915b5ee53fe_cabana_life_d505dd6073bd.jpeg",
+      "founded": 2019,
+      "tags": "Hospitality, Transportation, Travel",
+      "website": "https://cabana.life/"
+    },
+    {
+      "country": "Singapore",
+      "name": "Kyt",
+      "description": "Kyt is an educational technology platform and a global institution for extracurricular learning that aims to provide a holistic education to all children.",
+      "based": "Singapore",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611274ac03b96a1409edcf85_kyt_academy__bd0c8c59416e.jpeg",
+      "founded": 2020,
+      "tags": "E-Learning, EdTech, Education",
+      "website": "https://kyt.academy/"
+    },
+    {
+      "country": "Singapore",
+      "name": "Zluri",
+      "description": "IT Management Platform as a Service (SaaS)",
+      "based": "Singapore",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/611274b49b8f2924b2a5975d_www_zluri_com_5f615684c0c6.jpeg",
+      "founded": 2020,
+      "tags": "SaaS, Software",
+      "website": "https://www.zluri.com/"
+    },
+    {
+      "country": "Malaysia",
+      "name": "Torum",
+      "description": "Torum is the world's first DeFi + NFT social networking platform for cryptocurrency users all over the world.",
+      "based": "Kuala Lumpur",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6116afc4411c5eb335fae82b_www_torum_com__fdd48cfa4886.jpeg",
+      "founded": 2018,
+      "tags": "Cryptocurrency, Mobile Apps, Social, Social Media, Social Network",
+      "website": "https://www.torum.com/"
+    },
+    {
+      "country": "Malaysia",
+      "name": "MyMy",
+      "description": "MyMy is a financial technology company that specializes in digital payments and financial inclusion.",
+      "based": "Kuala Lumpur",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6115684cdbfb1913e8ce5250_www_my_my_com_67b74bacd433.jpeg",
+      "founded": 2018,
+      "tags": "Banking, Financial Services, FinTech",
+      "website": "https://www.my-my.com/"
+    },
+    {
+      "country": "Philippine",
+      "name": "Kumu Holdings",
+      "description": "Kumu is a social entertainment platform with the goal of fostering Filipino creativity, community, and commerce.",
+      "based": "Manila",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6115696cb0500d4d84fbd5cd_www_kumu_ph_3f85e4d9ecaf.jpeg",
+      "founded": 2017,
+      "tags": "E-Commerce, Media and Entertainment, Social Media, Video, Video Streaming",
+      "website": "https://www.kumu.ph/"
+    },
+    {
+      "country": "Philippine",
+      "name": "PayMongo",
+      "description": "PayMongo is a payment processing firm that offers a payments API for use in mobile apps and websites.",
+      "based": "Taguig",
+      "image": "https://assets-global.website-files.com/5fadb14c46b287ad224b60b9/6116afe771966aa6049b9714_paymongo_com_a52401636e32.jpeg",
+      "founded": 2019,
+      "tags": "Financial Services, FinTech, Payments",
+      "website": "https://paymongo.com/"
+    }
+   ]

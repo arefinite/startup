@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Shopify ",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/60951d157e7e861ff3a4e72a_shopify.jpg",
+      "industry": "SaaS",
+      "website": "https://www.shopify.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/xgbABGgYRImqI0"
+    },
+    {
+      "name": "AirBnB",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/6095209b7aeb7e81accaea5d_airbnb.jpg",
+      "industry": "Travel & Events",
+      "website": "https://www.airbnb.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/KOKP6U9G6TYILf"
+    },
+    {
+      "name": "uber",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/6095205b136ee2d1d0f3af34_Uber.png",
+      "industry": "Transportation",
+      "website": "https://uber.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/tsFAahFcg8jozJ"
+    },
+    {
+      "name": "LinkedIn",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/60951ee0477ad27b8754286c_LinkedIn.jpg",
+      "industry": "Social",
+      "website": "https://linkedin.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/CbuIohJKKg4hfa"
+    },
+    {
+      "name": "Facebook",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/60951fdf016d5071065b109d_facebook.jpg",
+      "industry": "Social",
+      "website": "https://facebook.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/ns8gcypQTWIeal"
+    },
+    {
+      "name": "Coinbase",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/60951bf731720a32870c1bb2_coinbase.jpg",
+      "industry": "FinTech",
+      "website": "https://coinbase.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/260BScydbD4mUf"
+    },
+    {
+      "name": "hometalk",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/6093df6d2b7215cea69f6dab_hometalk.jpg",
+      "industry": "Marketplaces",
+      "website": "https://www.hometalk.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/xJD6yS0Y0qHGBg"
+    },
+    {
+      "name": "Heal",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/6093c8d168902307963c727c_Heal.jpg",
+      "industry": "Healthcare",
+      "website": "https://heal.com/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/ys5pQsvgmDdUVw"
+    },
+    {
+      "name": "Hampton Creek",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/6093e03aa28b507ea5497032_Hampton%20Creek.jpg",
+      "industry": "Food & Beverages",
+      "website": "https://www.ju.st/en-us",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/aclysI2fBdYO3I"
+    },
+    {
+      "name": "Mynt",
+      "image": "https://assets-global.website-files.com/5eb7c0ef074356fabaf8ece4/63ca6ccd05897c61257be2ea_mynt%202.png",
+      "industry": "E-Commerce",
+      "website": "https://mynthome.de/",
+      "url": "//www.slideshare.net/slideshow/embed_code/key/NOpGROnPbZk5M0"
+    }
+   ]
