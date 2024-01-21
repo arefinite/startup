@@ -3,6 +3,20 @@ import 'swiper/css'
 import 'swiper/css/effect-cards'
 import { EffectCards } from 'swiper/modules'
 import styles from './SuggestedBooks.module.css'
+import one from '../../assets/images/one.jpg'
+import two from '../../assets/images/two.jpg'
+import three from '../../assets/images/three.jpg'
+import four from '../../assets/images/four.jpg'
+import five from '../../assets/images/five.jpg'
+import six from '../../assets/images/six.jpg'
+import seven from '../../assets/images/seven.jpg'
+import eight from '../../assets/images/eight.jpg'
+import nine from '../../assets/images/nine.jpg'
+import ten from '../../assets/images/ten.jpg'
+import eleven from '../../assets/images/eleven.jpg'
+import twelve from '../../assets/images/twelve.jpg'
+import thirteen from '../../assets/images/thirteen.jpg'
+
 const SuggestedBooks = () => {
   return (
     <section className='flex items-center flex-col-reverse md:flex-row-reverse mt-20'>
@@ -30,62 +44,80 @@ const SuggestedBooks = () => {
           <div className={styles.swiperSlide}>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={one}
+                alt='one'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={two}
+                alt='two'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={three}
+                alt='three'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={four}
+                alt='four'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={five}
+                alt='five'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={six}
+                alt='six'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={seven}
+                alt='seven'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={eight}
+                alt='eight'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={nine}
+                alt='nine'
               />
             </SwiperSlide>
             <SwiperSlide>
               <img
-                src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp7485472.jpg&f=1&nofb=1&ipt=af0b6c70ae38f7ab5410ced65d1c2696f108332d430c27db3e3b84ce90c3bfda&ipo=images'
-                alt=''
+                src={ten}
+                alt='ten'
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={eleven}
+                alt='eleven'
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={twelve}
+                alt='twelve'
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img
+                src={thirteen}
+                alt='thirteen'
               />
             </SwiperSlide>
           </div>
