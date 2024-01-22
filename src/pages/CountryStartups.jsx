@@ -81,7 +81,7 @@ const currentItems = filteredStartups
         <input
           type='search'
           placeholder='Search for startups...'
-          className='min-w-96'
+          className='w-full md:min-w-96'
           value={searchQuery}
           onChange={handleSearchChange}
         />

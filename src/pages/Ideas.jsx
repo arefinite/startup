@@ -65,7 +65,7 @@ const Ideas = () => {
         <input
           type='search'
           placeholder='Search for ideas...'
-          className='min-w-96'
+          className='w-full md:min-w-96'
           value={searchQuery}
           onChange={handleSearchChange}
         />
