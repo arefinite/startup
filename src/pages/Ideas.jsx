@@ -65,7 +65,7 @@ const Ideas = () => {
         <input
           type='search'
           placeholder='Search for ideas...'
-          className='w-full md:min-w-96'
+          className='w-full md:max-w-96'
           value={searchQuery}
           onChange={handleSearchChange}
         />
@@ -106,7 +106,9 @@ const Ideas = () => {
           ))
         ) : (
           <div>
-            <p className='text-red-600 font-bold drop-shadow'>No Ideas Available.</p>
+            <p className='text-red-600 font-bold drop-shadow'>
+              No Ideas Available.
+            </p>
           </div>
         )}
       </main>

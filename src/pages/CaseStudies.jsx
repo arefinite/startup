@@ -31,7 +31,7 @@ const CaseStudies = () => {
 
   const handleSearchChange = event => {
     setSearchQuery(event.target.value)
-    setItemOffset(0) 
+    setItemOffset(0)
   }
 
   return (
@@ -47,7 +47,7 @@ const CaseStudies = () => {
         <input
           type='search'
           placeholder='Search for case study...'
-          className='w-full md:min-w-96'
+          className='w-full md:max-w-96'
           value={searchQuery}
           onChange={handleSearchChange}
         />

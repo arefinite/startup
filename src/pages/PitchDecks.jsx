@@ -51,9 +51,7 @@ const PitchDecks = () => {
   const handleIndustryChange = event => {
     setSelectedIndustry(event.target.value)
     setItemOffset(0)
-    }
-    
-
+  }
 
   return (
     <section className='wrapper'>
@@ -68,7 +66,7 @@ const PitchDecks = () => {
         <input
           type='search'
           placeholder='Search for company pitch...'
-          className='w-full md:min-w-96'
+          className='w-full md:max-w-96'
           value={searchQuery}
           onChange={handleSearchChange}
         />
@@ -100,7 +98,7 @@ const PitchDecks = () => {
               </div>
               <div>
                 <iframe
-                  src={pitch.url.slice(13,73)}
+                  src={pitch.url.slice(13, 73)}
                   height={485}
                   style={{
                     border: '1px solid #CCC',

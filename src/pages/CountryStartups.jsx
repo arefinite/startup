@@ -1,75 +1,75 @@
-import { useEffect, useState } from 'react';
-import data from '../assets/data.json';
-import ReactPaginate from 'react-paginate';
-import { useParams } from 'react-router-dom';
-import GoBack from '../components/GoBack';
+import { useEffect, useState } from 'react'
+import data from '../assets/data.json'
+import ReactPaginate from 'react-paginate'
+import { useParams } from 'react-router-dom'
+import GoBack from '../components/GoBack'
 
 const CountryStartups = () => {
-  const { name } = useParams();
-  const [startups, setStartups] = useState(data);
+  const { name } = useParams()
+  const [startups, setStartups] = useState(data)
   useEffect(() => {
-    setStartups(startups.filter((startup) => startup.country === name));
-  }, [name]);
+    setStartups(startups.filter(startup => startup.country === name))
+  }, [name])
 
-  const getFlag = (countryName) => {
-    const country = startups.find((startup) => startup.country === countryName);
-    return country ? country.flag : null;
-  };
+  const getFlag = countryName => {
+    const country = startups.find(startup => startup.country === countryName)
+    return country ? country.flag : null
+  }
 
-  const allTags = startups.flatMap((startup) => startup.tags.split(', '));
+  const allTags = startups.flatMap(startup => startup.tags.split(', '))
 
-  const uniqueTags = [...new Set(allTags)];
+  const uniqueTags = [...new Set(allTags)]
 
-  const [searchQuery, setSearchQuery] = useState('');
-  const [selectedIndustry, setSelectedIndustry] = useState('All');
-  const totalIdeas = startups.length;
+  const [searchQuery, setSearchQuery] = useState('')
+  const [selectedIndustry, setSelectedIndustry] = useState('All')
+  const totalIdeas = startups.length
 
-  const [itemOffset, setItemOffset] = useState(0);
-  const itemsPerPage = 10;
+  const [itemOffset, setItemOffset] = useState(0)
+  const itemsPerPage = 10
 
-  const endOffset = itemOffset + itemsPerPage;
+  const endOffset = itemOffset + itemsPerPage
 
-  const filteredStartups = startups.filter((startup) =>
-  startup.name.toLowerCase().includes(searchQuery.toLowerCase())
-);
-
-const currentItems = filteredStartups
-  .filter((startup) =>
-    selectedIndustry === 'All'
-      ? true
-      : startup.tags.includes(selectedIndustry)
+  const filteredStartups = startups.filter(startup =>
+    startup.name.toLowerCase().includes(searchQuery.toLowerCase())
   )
-  .slice(itemOffset, endOffset);
+
+  const currentItems = filteredStartups
+    .filter(startup =>
+      selectedIndustry === 'All'
+        ? true
+        : startup.tags.includes(selectedIndustry)
+    )
+    .slice(itemOffset, endOffset)
 
   const pageCount = Math.ceil(
-    filteredStartups.filter((idea) =>
+    filteredStartups.filter(idea =>
       selectedIndustry === 'All' ? true : idea.industry === selectedIndustry
     ).length / itemsPerPage
-  );
+  )
 
-  const handlePageClick = (event) => {
+  const handlePageClick = event => {
     const newOffset =
       (event.selected * itemsPerPage) %
-      filteredStartups.filter((idea) =>
+      filteredStartups.filter(idea =>
         selectedIndustry === 'All' ? true : idea.industry === selectedIndustry
-      ).length;
-    setItemOffset(newOffset);
-    window.scrollTo(0, 0);
-  };
+      ).length
+    setItemOffset(newOffset)
+    window.scrollTo(0, 0)
+  }
 
-  const handleSearchChange = (event) => {
-    setSearchQuery(event.target.value);
-    setItemOffset(0);
-  };
+  const handleSearchChange = event => {
+    setSearchQuery(event.target.value)
+    setItemOffset(0)
+  }
 
-  const handleIndustryChange = (event) => {
-    setSelectedIndustry(event.target.value);
-    setItemOffset(0);
-  };
+  const handleIndustryChange = event => {
+    setSelectedIndustry(event.target.value)
+    setItemOffset(0)
+  }
 
   return (
-      <section className='wrapper'>
-           <GoBack destination='/global-startups'/>
+    <section className='wrapper'>
+      <GoBack destination='/global-startups' />
       <div className='flex items-center gap-2'>
         <span>
           <img src={getFlag(name)} className='h-4 w-6' alt='' />
@@ -77,11 +77,11 @@ const currentItems = filteredStartups
         <h1>{name} Startups:</h1>
         <span className='text-sm'>({totalIdeas} Startups)</span>
       </div>
-      <div className='my-8 flex flex flex-col md:flex-row gap-4'>
+      <div className='my-8 flex  flex-col md:flex-row gap-4'>
         <input
           type='search'
           placeholder='Search for startups...'
-          className='w-full md:min-w-96'
+          className='w-full md:max-w-96'
           value={searchQuery}
           onChange={handleSearchChange}
         />
@@ -100,7 +100,7 @@ const currentItems = filteredStartups
       </div>
       <main className='grid grid-cols-1 md:grid-cols-2 gap-8'>
         {currentItems.length > 0 ? (
-          currentItems.map((startup) => (
+          currentItems.map(startup => (
             <div
               key={startup.id}
               className='shadow py-6 px-4 flex flex-col gap-3 rounded-xl'
@@ -142,9 +142,7 @@ const currentItems = filteredStartups
           ))
         ) : (
           <div>
-            <p className='text-red-600 font-bold drop-shadow'>
-              No Available.
-            </p>
+            <p className='text-red-600 font-bold drop-shadow'>No Available.</p>
           </div>
         )}
       </main>
@@ -165,7 +163,7 @@ const currentItems = filteredStartups
         />
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default CountryStartups;
+export default CountryStartups
