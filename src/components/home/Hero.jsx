@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import heroImg from '/hero.svg'
 const Hero = () => {
   return (
@@ -15,8 +16,14 @@ const Hero = () => {
           landscape of innovation.
         </p>
         <div className='flex gap-3'>
-          <button className='darker-button'>Explore Startup</button>
-          <button className='medium-button'>Share Your Idea</button>
+          <Link to='/global-startups'>
+            {' '}
+            <button className='darker-button'>Explore Startup</button>
+          </Link>
+          <Link to='/ideas'>
+            {' '}
+            <button className='medium-button'>Go To Idea Hub</button>
+          </Link>
         </div>
       </div>
       <div className='flex-1'>
