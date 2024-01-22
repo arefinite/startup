@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Terms = () => {
@@ -46,7 +47,7 @@ const Terms = () => {
 
       <section>
         <h2>5. Privacy Policy</h2>
-        <p>By using Webseta, you agree to our Privacy Policy, which can be found [here].</p>
+        <p>By using Webseta, you agree to our Privacy Policy, which can be found <Link to='/privacy'>here</Link>.</p>
       </section>
 
       <section>
@@ -67,9 +68,9 @@ const Terms = () => {
       <section>
         <h2>9. Governing Law</h2>
         <p>
-          These Terms and Conditions are governed by and construed in accordance with the laws of [Your Jurisdiction].
+          These Terms and Conditions are governed by and construed in accordance with the laws of Bangladesh.
           Any disputes arising under or in connection with these terms shall be subject to the exclusive jurisdiction of
-          the courts of [Your Jurisdiction].
+          the courts of Bangladesh.
         </p>
       </section>
 
