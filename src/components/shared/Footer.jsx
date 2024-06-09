@@ -81,7 +81,7 @@ const Footer = () => {
             </div>
             <div>
               <p>&copy; {new Date().getFullYear()} by WebSeta</p>
-              <p>Design and Developed by iSovix Technology</p>
+              <p>Design and Developed by Adnan Arefin</p>
             </div>
           </div>
         </div>
